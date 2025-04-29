@@ -9,31 +9,29 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://github.com/shadow1ng/fscan/releases/download/2.0.0-build4/fscan.exe",
+            "url": "https://github.com/shadow1ng/fscan/releases/download/2.0.0-build4/fscan.exe#/fscan.exe",
             "hash": "9d1031585522845d068f720afbb3b9d31de4ba76f19e1ea5a86983d7f66e75b9",
-            "bin": "fscan.exe"
         },
         "32bit": {
-            "url": "https://github.com/shadow1ng/fscan/releases/download/2.0.0-build4/fscan32.exe",
+            "url": "https://github.com/shadow1ng/fscan/releases/download/2.0.0-build4/fscan32.exe#/fscan.exe",
             "hash": "2b48e5e737aa1e97c7c64833a046b453fcfd12db7ed65e71b9973cf0c2e6c06b",
-            "bin": "fscan32.exe"
         },
         "arm64": {
-            "url": "https://github.com/shadow1ng/fscan/releases/download/2.0.0-build4/fscan_arm64.exe",
+            "url": "https://github.com/shadow1ng/fscan/releases/download/2.0.0-build4/fscan_arm64.exe#/fscan.exe",
             "hash": "e127616b2b6b3a17306fdd2e815093a673022c5ad0cc2752864ac1a1168b5511",
-            "bin": "fscan_arm64.exe"
         }
     },
+    "bin": "fscan.exe",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan.exe"
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan.exe#/fscan.exe"
             },
             "32bit": {
-                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan32.exe"
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan32.exe#/fscan.exe"
             },
             "arm64": {
-                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_arm64.exe"
+                "url": "https://github.com/shadow1ng/fscan/releases/download/$version/fscan_arm64.exe#/fscan.exe"
             }
         }
     }
