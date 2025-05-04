@@ -16,10 +16,7 @@
         }
     },
     "bin": "bkcrack.exe",
-    "checkver": {
-        "url": "https://api.github.com/repos/kimci86/bkcrack/releases/latest",
-        "jsonpath": "$.tag_name"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
