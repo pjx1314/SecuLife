@@ -7,7 +7,6 @@
     "64bit": {
       "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.8.0/TscanPlus_Win_Amd64_v2.8.0.zip",
       "hash": "d9c1d3eb76300349c302c0062d752da5ccaa34cec22cb46294493a3ea190f533",
-      "extract_dir": "TscanPlus_Win_Amd64_v2.8.0",
       "shortcuts": [
         [
           "TscanPlus_Win_Amd64.exe",
@@ -18,7 +17,6 @@
     "arm64": {
       "url": "https://github.com/TideSec/TscanPlus/releases/download/v2.8.0/TscanPlus_Win_Arm64_v2.8.0.zip",
       "hash": "2c7d99831c657ebff1403c505e10f509d724044e75f03837b4d0b5873e2e7273",
-      "extract_dir": "TscanPlus_Win_Arm64_v2.8.0",
       "shortcuts": [
         [
           "TscanPlus_Win_Arm64.exe",
@@ -32,11 +30,9 @@
     "architecture": {
       "64bit": {
         "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Amd64_v$version.zip",
-        "extract_dir": "TscanPlus_Win_Amd64_v$version"
       },
       "arm64": {
         "url": "https://github.com/TideSec/TscanPlus/releases/download/v$version/TscanPlus_Win_Arm64_v$version.zip",
-        "extract_dir": "TscanPlus_Win_Arm64_v$version"
       }
     }
   }
